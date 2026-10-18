@@ -43,3 +43,21 @@ section#telefone{
     height: 471px;
 }
 
+section#redes-sociais{
+    text-align: right;
+}
+
+section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.459);
+    box-sizing: border-box; /*faz com que a borda seja incluída no tamanho total do elemento e faz com ela faça apenas parte da caixa/elemento*/
+}   
+
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.763);  
+    transform: translate(-2px, -2px); /*faz com que o elemento se mova levemente ao ser hoverado*/
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.459);
+    transition: transform 0.2s, box-shadow 0.2s, border 0.2s; /*adiciona uma transição suave para as propriedades transform, box-shadow e border quando o elemento é hoverado*/
+}
